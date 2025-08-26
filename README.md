@@ -6,24 +6,9 @@ This project consists of building a simple Microsoft Sentinel SIEM following mup
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>Virtual Box</b>
-- <b>PFSense</b> 
-- <b>Windows 10 AD</b>
-- <b>Windows 2022 Server</b>
-- <b>BadBlood</b>
-- <b>Sysmon</b>
-- <b>Crowdsec</b>
+- <b> Microsoft Azure Cloud</b>
+- <b> Microsoft Sentinel</b>
 
-<h2>Environments Used </h2>
-
-- <b>Windows 10</b> 
-- <b>Linux</b>
-
-<h2>Virtual Machines Created </h2>
-
-- <b>SOC_PFSENSE</b>: This machine was made for the software pfSense which is used as a Firewall/Router. 
-- <b>SOC_AD</b>: This machine is used as an Active Directory Domain Controller.
-- <b>SOC_Win10</b>: This machine is used as a simple workstation instance.
 
 <h2>Errors Occured </h2>
 
@@ -37,19 +22,16 @@ The AD server needs to be the DNS server of the workstation because firstly ther
 
 <h2>Sources Used </h2>
 
-- <b>Let's Defend SOC Lab at Home lesson: </b> https://app.letsdefend.io/training/lessons/building-a-soc-lab-at-home
-- <b>Sysmon Configuration XML: </b> https://github.com/olafhartong/sysmon-modular/blob/master/sysmonconfig.xml
-- <b>Active Directory Video: </b> https://www.youtube.com/watch?v=SsN8pwIE1_Y
-- <b>Various posts in Stackoverflow: </b> https://stackoverflow.com/
-- <b>For image attachemnts: </b> https://imgur.com/
-- <b>CrowdSec .msi installation </b> https://github.com/crowdsecurity/crowdsec/releases/tag/v1.6.1
+- <b>Microsoft Sentinel Webpage: </b> https://www.microsoft.com/en-us/security/business/siem-and-xdr/microsoft-sentinel/
+- <b>Basic Creation Tutorial: </b> https://medium.com/@cyberchops/building-microsoft-sentinel-siem-with-live-attack-monitoring-on-a-map-849749d60e6d
+- <b>Helpful Article </b> https://hub.metronlabs.com/microsoft-sentinel-architecture-a-step-by-step-overview-of-integration-and-log-processing/
+- <b>Helpful Video Tutorial </b> https://www.youtube.com/watch?v=g5JL2RIbThM
 
 <h2>Creation walk-through:</h2>
 
-<h3>PfSense Virtual Machine:</h3>
 <p align="center">
-Cofiguring Network Adapters <br/>
-<img src="https://i.imgur.com/STvaVTR.png" height="80%" width="80%" alt="SOC Lab"/>
+Making Azure Account <br/>
+<img src="https://imgur.com/IssyYWm.png" height="80%" width="80%" alt="SOC Lab"/>
 <br />
 <br />
 pfSense Installer <br/>
