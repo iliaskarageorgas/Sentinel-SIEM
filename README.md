@@ -59,24 +59,44 @@ Date Connectors<br />
 <img src="https://imgur.com/YSDrt1Z.png" height="80%" width="80%" alt="SOC Lab"/>
 <br />
 <br />
-Windows 10 Workstation IP <br />
-<img src="https://i.imgur.com/XHSmegt.png" height="80%" width="80%" alt="SOC Lab"/>
+Data Connection Rule <br />
+<img src="https://imgur.com/WOG1Aya.png" height="80%" width="80%" alt="SOC Lab"/>
 <br />
 <br />
-First pfSense and workstation interaction <br />
-<img src="https://i.imgur.com/zCKA6iE.png" height="80%" width="80%" alt="SOC Lab"/>
+Rule Creation <br />
+<img src="https://imgur.com/ZH5FA8l.png" height="80%" width="80%" alt="SOC Lab"/>
 <br />
 <br />
-Inserting workstation into the domain <br />
-<img src="https://i.imgur.com/Cm7p0Af.png" height="80%" width="80%" alt="SOC Lab"/>
+Rule Settings<br />
+<img src="https://imgur.com/989hRyD.png" height="80%" width="80%" alt="SOC Lab"/>
 <br />
 <br />
-Installing Sysmon<br />
-<img src="https://i.imgur.com/pidDaEp.png" height="80%" width="80%" alt="SOC Lab"/>
+The Rule is Ready<br />
+<img src="https://imgur.com/EJZi0mt.png" height="80%" width="80%" alt="SOC Lab"/>
 <br />
 <br />
-Installing CrowdSec<br />
-<img src="https://i.imgur.com/3sqywQU.png" height="80%" width="80%" alt="SOC Lab"/>
+</p>
+
+<h3>Rule Testing</h3>
+<p align="center">
+Connecting via RDP<br />
+<img src="https://imgur.com/zqHKdB0.png" height="80%" width="80%" alt="SOC Lab"/>
+<br />
+<br />
+Connecting via RDP from my PC<br />
+<img src="https://imgur.com/h1qL3CA.png" height="80%" width="80%" alt="SOC Lab"/>
+<br />
+<br />
+Connected Successfully<br />
+<img src="https://imgur.com/CoDw9ac.png" height="80%" width="80%" alt="SOC Lab"/>
+<br />
+<br />
+Connected Successfully<br />
+<img src="https://imgur.com/CoDw9ac.png" height="80%" width="80%" alt="SOC Lab"/>
+<br />
+<br />
+Connected Successfully<br />
+<img src="https://imgur.com/CoDw9ac.png" height="80%" width="80%" alt="SOC Lab"/>
 <br />
 <br />
 </p>
