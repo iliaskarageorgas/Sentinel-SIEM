@@ -89,8 +89,12 @@ Incident Spotted via Advanced Hunting<br />
 <img src="https://imgur.com/zWRombk.png" height="80%" width="80%" alt="SOC Lab"/>
 <br />
 <br />
-Incident-Alert Created as Expected<br />
+Incident-Alert Created as Expected (Microsoft Defender)<br />
 <img src="https://imgur.com/UDeYSY3.png" height="80%" width="80%" alt="SOC Lab"/>
+<br />
+<br />
+Incident-Alert Created as Expected (Microsoft Sentinel)<br />
+<img src="https://imgur.com/bh0Zit7.png" height="80%" width="80%" alt="SOC Lab"/>
 <br />
 <br />
 Alerting Correctly For My Desktop (as seen on the CMD console)<br />
