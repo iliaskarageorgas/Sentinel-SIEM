@@ -20,6 +20,7 @@ The alert was generated successfully as seen on the last part of this page.
 - <b>Basic Creation Tutorial: </b> https://medium.com/@cyberchops/building-microsoft-sentinel-siem-with-live-attack-monitoring-on-a-map-849749d60e6d
 - <b>Helpful Article </b> https://hub.metronlabs.com/microsoft-sentinel-architecture-a-step-by-step-overview-of-integration-and-log-processing/
 - <b>Helpful Video Tutorial </b> https://www.youtube.com/watch?v=g5JL2RIbThM
+- <b>Helpful KQL Tutorial </b> https://azuretracks.com/2025/01/building-custom-kql-analytics-rules-in-sentinel/
 
 <h2>Creation walk-through:</h2>
 
