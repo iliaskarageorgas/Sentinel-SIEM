@@ -8,17 +8,8 @@ This project consists of building a simple Microsoft Sentinel SIEM following mup
 
 - <b> Microsoft Azure Cloud</b>
 - <b> Microsoft Sentinel</b>
+- <b> Kusto Query Language</b>
 
-
-<h2>Errors Occured </h2>
-
-- <b>The specified domain either does not exist or could not be contacted:</b> This poped-up when I tried to join the domain SOC with the workstation VM. This happened because when I assigned the IP for the workstation, I put a wrong IP as a prefered DNS server. The correct way is to set as the DNS the AD server, so in my case the "SOC_AD" VM. On the image below the IP of the DNS is 192.168.10.10 which is not a system in my environment. The right way is the AD's IP 192.168.1.2. 
-<p align="center">
-<img src="https://i.imgur.com/XHSmegt.png" height="80%" width="80%" alt="SOC Lab"/>
-<br />
-<br />
-</p> 
-The AD server needs to be the DNS server of the workstation because firstly there is no DNS server in the environment and secondly because Active Directory relies heavily on name resolution, so the workstation can properly resolve domain names, locate AD resources such as domain controllers, and authenticate users.
 
 <h2>Sources Used </h2>
 
@@ -55,7 +46,7 @@ Microsoft Sentinel Created <br/>
 
 <h3>Sentinel Setup:</h3>
 <p align="center">
-Date Connectors<br />
+Data Connectors<br />
 <img src="https://imgur.com/YSDrt1Z.png" height="80%" width="80%" alt="SOC Lab"/>
 <br />
 <br />
@@ -91,12 +82,16 @@ Connected Successfully<br />
 <img src="https://imgur.com/CoDw9ac.png" height="80%" width="80%" alt="SOC Lab"/>
 <br />
 <br />
-Connected Successfully<br />
-<img src="https://imgur.com/CoDw9ac.png" height="80%" width="80%" alt="SOC Lab"/>
+Incident Spotted via Advanced Hunting<br />
+<img src="https://imgur.com/zWRombk.png" height="80%" width="80%" alt="SOC Lab"/>
 <br />
 <br />
-Connected Successfully<br />
-<img src="https://imgur.com/CoDw9ac.png" height="80%" width="80%" alt="SOC Lab"/>
+Incident-Alert Created as Expected<br />
+<img src="https://imgur.com/UDeYSY3.png" height="80%" width="80%" alt="SOC Lab"/>
+<br />
+<br />
+Alerting Correctly For My Desktop (as seen on the CMD console)<br />
+<img src="https://imgur.com/ehI8m0n.png" height="80%" width="80%" alt="SOC Lab"/>
 <br />
 <br />
 </p>
