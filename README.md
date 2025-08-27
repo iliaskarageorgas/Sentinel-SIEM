@@ -29,53 +29,34 @@ The AD server needs to be the DNS server of the workstation because firstly ther
 
 <h2>Creation walk-through:</h2>
 
+<h3>VM and Sentinel Creation walk-through:</h3>
 <p align="center">
 Making Azure Account <br/>
 <img src="https://imgur.com/IssyYWm.png" height="80%" width="80%" alt="SOC Lab"/>
 <br />
 <br />
-pfSense Installer <br/>
-<img src="https://i.imgur.com/9NOfSGO.png" height="80%" width="80%" alt="SOC Lab"/>
+Vitrual Machine Creation <br/>
+<img src="https://imgur.com/4UvzpfK.png" height="80%" width="80%" alt="SOC Lab"/>
 <br />
 <br />
-Configuring Network Interfaces:  <br/>
-<img src="https://i.imgur.com/Q7870zq.png" height="80%" width="80%" alt="SOC Lab"/>
+Creating Log Analytics Workspace  <br/>
+<img src="https://imgur.com/tdUMrzn.png" height="80%" width="80%" alt="SOC Lab"/>
 <br />
 <br />
-</p>
-
-<h3>Active Directory Virtual Machine:</h3>
-<p align="center">
-Seting Up the VM and Windows 2022 Server OS <br/>
-<img src="https://i.imgur.com/ZGaMNfh.png" height="80%" width="80%" alt="SOC Lab"/>
+Leaving RDP open in order to get alerts <br/>
+<img src="https://imgur.com/ENQ33XK.png" height="80%" width="80%" alt="SOC Lab"/>
 <br />
 <br />
-Network Adapter Configuration <br/>
-<img src="https://i.imgur.com/HLDVosz.png" height="80%" width="80%" alt="SOC Lab"/>
-<br />
-<br />
-Active Directory Installation  <br/>
-<img src="https://i.imgur.com/IId9kTS.png" height="80%" width="80%" alt="SOC Lab"/>
-<br />
-<br />
-Making the server a domain controller  <br/>
-<img src="https://i.imgur.com/t5LdACo.png" height="80%" width="80%" alt="SOC Lab"/>
-<br />
-<br />
-Adding a new AD forest  <br />
-<img src="https://i.imgur.com/Bpk3jql.png" height="80%" width="80%" alt="SOC Lab"/>
-<br />
-<br />
-Initiating BadBlood to populate Active Directory <br />
-<img src="https://i.imgur.com/4e302ms.png" height="80%" width="80%" alt="SOC Lab"/>
+Microsoft Sentinel Created <br/>
+<img src="https://imgur.com/41qlYo0.png" height="80%" width="80%" alt="SOC Lab"/>
 <br />
 <br />
 </p>
 
-<h3>Windows Workstation Virtual Machine:</h3>
+<h3>Sentinel Setup:</h3>
 <p align="center">
-Windows 10 Workstation Setup<br />
-<img src="https://i.imgur.com/p1aw3wd.png" height="80%" width="80%" alt="SOC Lab"/>
+Date Connectors<br />
+<img src="https://imgur.com/YSDrt1Z.png" height="80%" width="80%" alt="SOC Lab"/>
 <br />
 <br />
 Windows 10 Workstation IP <br />
