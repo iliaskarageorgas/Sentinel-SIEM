@@ -2,7 +2,7 @@
 
 <h2>Description</h2>
 This project consists of building a simple Microsoft Sentinel SIEM following muptiple tutorials. After Setup, I used it to make a rule and check for alert creation. 
-The rule consisted of a KQL query that alerts if a successfull RDP connection was initiated. 
+The rule consisted of a KQL query that alerts if a successful RDP connection was initiated. 
 In order to generate the alert, I left the RDP port (3389) open to public and connected via RDP from my own PC. 
 The alert was generated successfully as seen on the last part of this page. 
 
